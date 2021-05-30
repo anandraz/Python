@@ -1,4 +1,4 @@
-import csv
+import csv //CSV module
 
 # take the input data from user and return data in form of list
 def data(i):
