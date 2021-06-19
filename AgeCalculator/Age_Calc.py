@@ -10,6 +10,7 @@ root.title("Age Calculator")
 photo = PhotoImage(file="AgeCalculator/Age_Grow.png")
 Label(image=photo).grid(row=0, column=1) 
 """
+#main Func
 def calculateAge():
     today = date.today()
     birthDate = date(int(yearEntry.get()), int(monthEntry.get()), int(dayEntry.get()))
