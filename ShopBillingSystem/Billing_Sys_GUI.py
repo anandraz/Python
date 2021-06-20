@@ -10,7 +10,7 @@ root.configure(background='Grey') # Change Creen background color
 
 ####################################################################################
 ######################### Customer Info ############################################
-Label (text = "Customer Details", bg="white", fg="green").grid(row=1, column = 1)
+Label (text = "Customer Details", bg="white", fg="green").grid(row=1, column = 2)
 
 #Entry box name
 Label (text = "Customer Name").grid(row=2, column = 1)
