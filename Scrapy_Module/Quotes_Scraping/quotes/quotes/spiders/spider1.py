@@ -32,7 +32,7 @@ class QuotesSpider(scrapy.Spider):
                 'author':  quote.css('small.author::text').get()
             }
 
-    with open ('Quotes_Scraping/quotes/quotes.json') as jf:
+    with open ('/home/anand/Python_Projects/Scrapy_Module/Quotes_Scraping/quotes/quotes.json') as jf:
         data = json.load(jf)
         count = 1
         for q1 in data:
@@ -41,7 +41,7 @@ class QuotesSpider(scrapy.Spider):
             print("Quote {0}: \033[92m {1} \033[00m".format(count,q1['text']))
             print("\nAuthor: \033[93m {} \033[00m".format(q1['author']))
             print('*'*100)
-            time.sleep(300) # delay in sec # Every cyclic time it display quote
+            time.sleep(1) # delay in sec # Every cyclic time it display quote
             count +=1
 os.system("clear")            
 end_line = ["This is what we have, Thanks for reading Quotes, Adios."]*7
