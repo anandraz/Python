@@ -1,3 +1,7 @@
+__author__ = "Anand Kumar"
+__copyright__ = "Copyright (C) 2021"
+__version__ = "1.0"
+
 import turtle
 from turtle import*
 
@@ -7,7 +11,6 @@ goto(-400, 250)
 pendown()
 
 # Orange Rectangle
-#white rectangle
 color("orange")
 begin_fill()
 forward(800)
